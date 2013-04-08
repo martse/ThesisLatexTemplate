@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2013.4.9)  9 APR 2013 00:41
+This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2013.4.9)  9 APR 2013 01:03
 entering extended mode
 **D:/Kasutajad/Mart/Documents/GitHub/ThesisLatexTemplate/thesis_template/thesis
 .tex
@@ -425,10 +425,6 @@ Type  H <return>  for immediate help.
                                                   
 l.13 \hbox{}\\
               [6cm]
-? H
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
 ? 
 LaTeX Font Info:    Try loading font information for U+msa on input line 38.
 (D:\TeX\tex\latex\amsfonts\umsa.fd
@@ -495,10 +491,6 @@ Missing character: There is no “ in font cmr10!
 (D:\Kasutajad\Mart\Documents\GitHub\ThesisLatexTemplate\thesis_template\3/resea
 rchquestion.tex
  3.
-
-Package natbib Warning: Citation `chen2000survey' on page 7 undefined on input 
-line 36.
-
 ) [7
 
 
@@ -726,9 +718,6 @@ Overfull \vbox (37.73764pt too high) has occurred while \output is active []
 Overfull \vbox (36.73764pt too high) has occurred while \output is active []
 
 
-
-Package natbib Warning: There were undefined citations.
-
 [21]
 (D:\Kasutajad\Mart\Documents\GitHub\ThesisLatexTemplate\thesis_template\thesis.
 aux
@@ -755,35 +744,24 @@ edwork.aux)
 (D:\Kasutajad\Mart\Documents\GitHub\ThesisLatexTemplate\thesis_template\6/futur
 eresearch.aux)
 (D:\Kasutajad\Mart\Documents\GitHub\ThesisLatexTemplate\thesis_template\7/eesti
-abstract.aux)
-
-Package natbib Warning: Citation(s) may have changed.
-(natbib)                Rerun to get citations correct.
-
-) ) 
+abstract.aux)) ) 
 Here is how much of TeX's memory you used:
- 7137 strings out of 495285
- 109983 string characters out of 3182204
- 181063 words of memory out of 3000000
+ 7135 strings out of 495285
+ 109970 string characters out of 3182204
+ 182315 words of memory out of 3000000
  10050 multiletter control sequences out of 15000+200000
  12135 words of font info for 45 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 45i,12n,45p,814b,462s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{section*.5} has been referenced but does not exi
-st, replaced by a fixed one
-
-pdfTeX warning (dest): name{section*.3} has been referenced but does not exist,
- replaced by a fixed one
-
-<D:/TeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/TeX/fonts/type1/public/am
-sfonts/cm/cmbx12.pfb><D:/TeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><D:/TeX
-/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/TeX/fonts/type1/public/amsfonts/c
-m/cmr12.pfb><D:/TeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><D:/TeX/fonts/type1
-/public/amsfonts/cm/cmti12.pfb><D:/TeX/fonts/type1/public/amsfonts/cm/cmtt10.pf
-b>
-Output written on thesis.pdf (27 pages, 162486 bytes).
+ 45i,12n,45p,812b,462s stack positions out of 5000i,500n,10000p,200000b,50000s
+<D:/TeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/TeX/fonts
+/type1/public/amsfonts/cm/cmbx12.pfb><D:/TeX/fonts/type1/public/amsfonts/cm/cmc
+sc10.pfb><D:/TeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/TeX/fonts/type1/p
+ublic/amsfonts/cm/cmr12.pfb><D:/TeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><D:
+/TeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><D:/TeX/fonts/type1/public/amsfo
+nts/cm/cmtt10.pfb>
+Output written on thesis.pdf (27 pages, 163046 bytes).
 PDF statistics:
- 285 PDF objects out of 1000 (max. 8388607)
- 56 named destinations out of 1000 (max. 500000)
- 185 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 288 PDF objects out of 1000 (max. 8388607)
+ 54 named destinations out of 1000 (max. 500000)
+ 193 words of extra memory for PDF output out of 10000 (max. 10000000)
 
