@@ -6,6 +6,7 @@
 
 %transition between chapters, usually no more than two parragraphs
 The state of the art used in the thesis highlighted the advances in the cloud computing domain and the mobile domain...
+There are a number of code offloading solutions already present. In this section we summarize the current research related to this topic and give an overview about the different types of architectures.
 
 
 % change according to folder and file names
@@ -18,11 +19,16 @@ The state of the art used in the thesis highlighted the advances in the cloud co
 % ----------------------- State of the art ------------------------
 
 
-\section{Topic}
-The idea is to present  the major ideas (current work, related work, etc.) in the state of the art right up to, but not including, your own personal brilliant ideas.  You might investigate in different sources such as research papers, books, magazines, etc.
+\section{Code offloading}
 
+Dynamic Code offloading is a relatively new field of research. Solutions, which use dynamic code offloading, do not require modification of existing applications. Instead, programs that were not designed for distributed execution are partitioned at runtime based on execution history and information about the resources of the device. This means that there is no need for built-in remote execution logic in applications, it is taken care of automatically.
 
+\subsection{OLIE}
 
+The first project to use dynamic code offloading was OLIE (ofﬂoading inference engine). This was targeted to resource-restrained devices in general, such as PDAs and mobile phones. It used the popular Java runtime due to its diversity and platform independency. The main goal was to relieve the memory constraint of the mobile device, thus enabling running memory-intensive applications without degradation.
+To be successful, the project needed to address two key problems: 1) when to offload and 2) what policy to use to select objects for offload.
+The first issue is finding the right time to trigger the offloading process. To achieve this, OLIE constantly monitors the resources of the mobile device – e.g. memory usage and wireless network bandwidth. The offloading decision is made based on a fuzzy control model, which includes a generic fuzzy inference engine and decision making rules. If the current system and network conditions match any specified rule, an offloading action is triggered. During the offloading process, some program objects are transferred to a remote device, thereby reducing the local memory requirement. For these objects, remote method invocations are automatically generated.
+To determine, which objects to offload, OLIE creates and maintains a graph, in which nodes are classes and edges denote interactions between classes. This graph contains information about the size of objects created by the class, number of interactions between classes and amount of information transferred between classes. OLIE uses an advanced algorithm to find the best 2-way cut of the graph, based on the target memory consumption and resource status. According to the result of this computation, objects are migrated between the remote server and mobile device.
 
 
 \section{Summary}
